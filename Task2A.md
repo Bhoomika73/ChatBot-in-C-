@@ -58,7 +58,7 @@ Some examples of the use of *scope resolution*:
 
 #### Are C++ strings mutable or immutable?
 
-![A](https://imgur.com/oZzHm4z.png)
+![A](https://imgur.com/oZzHm4z.png) ![B](https://imgur.com/PicpXCr.png)
 
 Thus we see that the strings in c++ are mutable. But string literals are not mutable. Any collection of characters in double quotes is a string literal. This string is stored in a read-only part of memory. Since its we can't write to this memory,these strings are immutable. But any string in std::string form are mutable. Thus we see that the strings in c++ are mutable unless they are not declared as `std::string const or they are not string literals`.
 
