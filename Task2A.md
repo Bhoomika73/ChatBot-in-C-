@@ -58,15 +58,43 @@ Some examples of the use of *scope resolution*:
 
 #### Are C++ strings mutable or immutable?
 
-![A](https://imgur.com/oZzHm4z.png) ![B](https://imgur.com/PicpXCr.png)
+```c++
+#include <iostream>
 
-Thus we see that the strings in c++ are mutable. But string literals are not mutable. Any collection of characters in double quotes is a string literal. This string is stored in a read-only part of memory. Since its we can't write to this memory,these strings are immutable. But any string in std::string form are mutable. Thus we see that the strings in c++ are mutable unless they are not declared as `std::string const or they are not string literals`.
+int main()
+ {
+    std::string a = "grape";
+    a[0] = 'd';
+    std::cout<<a;
+    return 0;
+}
+
+```
 
 
 
+ ![B](https://imgur.com/PicpXCr.png)
 
+​	This is a simple program in C++ which shows that the string in C++ are mutable. Initially the string was "grape" and after the program executed the string now is "drape".Thus we see that the strings in c++ are mutable. 
 
+But string literals are not mutable. Any collection of characters in double quotes is a string literal. This string is stored in a read-only part of memory. Since we can't write to this memory, these strings are immutable. But any string in std::string form are mutable. Thus we see that the strings in C++ are mutable unless they are not declared as `std::string const` or they are not string literals.
 
+Example for immutability of *string literal*:
+
+```c++
+0#include <iostream>
+
+int main()
+ {
+    const std::string a = "grape";
+    a[0] = 'd';
+    std::cout<<a;
+    return 0;
+}
+
+```
+
+This program shows an error since here "grape" is a string literal and not a string. 
 
 
 
