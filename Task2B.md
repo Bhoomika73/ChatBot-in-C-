@@ -6,11 +6,7 @@
 
 A chatbot is a very basic program that can be written in any language. A chatbot basically takes a string or a phrase in natural language (like English) and responds to that phrase. The given task is to make a simple chatbot in C++ which when given an English phrase responds to it.
 
-
-
-Below is a program to create a simple ***CHATBOT***.
-
-###### Instructions:
+#### Instructions:
 
 * This is a very simple chat bot that can **answer a very limited questions**.
 * The bot will answer to the question **only if the question is stored** in the bot program.
@@ -20,6 +16,10 @@ Below is a program to create a simple ***CHATBOT***.
 > Example : If u want to ask "What is your name?" You must input "WHAT IS YOUR NAME"
 
 * If you want to leave the conversation **type *"EXIT"***.
+
+
+
+##### Below is a program to create a simple ***CHATBOT***:
 
 ```c++
 #include <iostream>
@@ -110,7 +110,7 @@ int main()
 
 
 
-Following are the outputs of the *CHAT BOT* program.
+##### Following are the outputs of the *CHAT BOT* program.
 
 > Output1 : 
 
