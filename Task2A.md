@@ -2,16 +2,19 @@
 
 ##### Table of Contents:
 
-* [Task 2: CHAT BOT](#Task 2: CHAT BOT)
-  * [What is the difference between C and C++](#What is the difference between C and C++)
-    * [C Programming Language](#C Programming Language)
-    * [C++ Programming Language](#C++ Programming Language)
-    * [Differences between C and C++](#Differences between C and C++)
-  * [What is this operator (`::`) in C++? What is it's use?](#What is this operator (`::`) in C++? What is it's use?)
-  * [Are C++ strings mutable or immutable?](#Are C++ strings mutable or immutable?)
-  * [What are namespaces in C++ and what is their use?](#What are namespaces in C++ and what is their use?)
-  * [Write a program in C++ to print the following pattern:](#Write a program in C++ to print the following pattern:)
-  * [Why do you think C++ is the right choice to begin programming?](#Why do you think C++ is the right choice to begin programming?)
+[Task 2: CHAT BOT](#Task 2: CHAT BOT)
+
+[What is the difference between C and C++](#What is the difference between C and C++)
+
+* [C Programming Language](#C Programming Language)
+* [C++ Programming Language](#C++ Programming Language)
+* [Differences between C and C++](#Differences between C and C++)
+
+* [What is this operator (`::`) in C++? What is it's use?](#What is this operator (`::`) in C++? What is it's use?)
+* [Are C++ strings mutable or immutable?](#Are C++ strings mutable or immutable?)
+* [What are namespaces in C++ and what is their use?](#What are namespaces in C++ and what is their use?)
+* [Write a program in C++ to print the following pattern:](#Write a program in C++ to print the following pattern:)
+* [Why do you think C++ is the right choice to begin programming?](#Why do you think C++ is the right choice to begin programming?)
 
 
 
