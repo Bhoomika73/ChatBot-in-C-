@@ -121,6 +121,20 @@ A namespace is a declarative region that provides a scope to the identifiers (th
 
 Example:
 
+```c++
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    cout<<"HIII";
+    return 0;
+}
+
+```
+
+
+
 ***
 
 #### Write a program in C++ to print the following pattern:
