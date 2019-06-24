@@ -12,8 +12,8 @@ Below is a program to create a simple ***CHATBOT***.
 
 ###### Instructions:
 
-* This is a very simple chat bot that can **answer a very limited number of questions**.
-* The bot will answer to the question **only if the question is stored in the bot program**.
+* This is a very simple chat bot that can **answer a very limited questions**.
+* The bot will answer to the question **only if the question is stored** in the bot program.
 * The question must be asked in **UPPERCASE**.
 * **DO NOT use any CHARACTERS** like "?", "!", ".", etc while asking the questions.
 
@@ -126,4 +126,4 @@ Following are the outputs of the *CHAT BOT* program.
 
 #### Design Approach :
 
-This program was to create a simple **"ChatBot"** which could answer a few questions asked by the user. Only the questions that were stored in the program can be answered. First all the possible answers to the questions are stored in different **lists**. Then the input is taken from the user. Then I have used a **while** loop. This loop terminates when the user inputs **EXIT**. Inside the loop, I have used **if-else if-else** command. This command checks if the input from the user matches with any of the questions that are previously determined. if it matches then using **random** command, any string is taken from the corresponding list and is given as the output. If the input from user is **EXIT**, then using the **Break** command the program comes out of the while loop. If the input from user does not match any of the predefined questions then I have given a separate output for that as well.
+This program was to create a simple **"ChatBot"** which could answer a few questions asked by the user. Only the questions that were stored in the program can be answered. First all the possible answers to the questions are stored in different **lists**. Then the input is taken from the user. Then I have used a **while** loop. This loop terminates when the user inputs **EXIT**. Inside the loop, I have used **if-else if-else** command. This command checks if the input from the user matches with any of the questions that are previously determined. if it matches then using **random** command, any string is taken from the corresponding list and is given as the output. If the input from user is **EXIT**, then using the **Break** command the program comes out of the while loop. If the input from user **does not match** any of the predefined questions then I have given a separate output for that as well.
